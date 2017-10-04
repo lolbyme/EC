@@ -1,6 +1,4 @@
-/**
- * @author Petri Kainulainen
- */
+
 public class FizzBuzz {
 
     public String getFizzBuzzWord(int number) {

@@ -5,9 +5,6 @@ import static junit.framework.Assert.assertNull;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * @author Petri Kainulainen
- */
 public class FizzBuzzTest {
 
     private FizzBuzz fizzBuzz;
