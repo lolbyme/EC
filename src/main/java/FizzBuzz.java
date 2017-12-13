@@ -11,7 +11,11 @@ public class FizzBuzz {
         if (number % 5 == 0) {
             fizzBuzzWord.append("Buzz");
         }
-
+	
+	
+        if (number % 15 == 0) {
+            fizzBuzzWord.append("FizzBuzz");
+        }
         return (fizzBuzzWord.length() == 0) ? null : fizzBuzzWord.toString();
     }
 }
