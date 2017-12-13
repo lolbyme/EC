@@ -6,9 +6,7 @@ import static junit.framework.Assert.assertTrue;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * @author Zsollt Dunai
- */
+
 public class ITFizzBuzzTest {
 
     private FizzBuzz fizzBuzz;
@@ -32,7 +30,10 @@ public class ITFizzBuzzTest {
     public void getFizzBuzzWord_NumberIsMultipleOfThreeAndFive_ShouldReturnFizzBuzz() {
         assertThat(fizzBuzz.getFizzBuzzWord(15), is("FizzBuzz"));
     }
-
+    @Test
+    public void getFizzBuzzWord_NumberIsMultipleOfThreeAndFive_ShouldReturnFizzBuzz() {
+        assertThat(fizzBuzz.getFizzBuzzWord(2), is("lul"));
+    }
     @Test
     public void getFizzBuzzWord_NumberIsNotMultipleOfThreeOrFive_ShouldReturnNull() {
         assertNull(fizzBuzz.getFizzBuzzWord(4));
