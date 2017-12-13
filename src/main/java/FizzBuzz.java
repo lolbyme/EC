@@ -8,10 +8,6 @@ public class FizzBuzz {
             fizzBuzzWord.append("Fizz");
         }
 
-        if (number % 4 == 0) {
-            fizzBuzzWord.append("lal");
-        }
-
         if (number % 5 == 0) {
             fizzBuzzWord.append("Buzz");
         }

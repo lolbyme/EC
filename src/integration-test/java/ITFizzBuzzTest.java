@@ -18,7 +18,7 @@ public class ITFizzBuzzTest {
         fizzBuzz = new FizzBuzz();
     }
 
-    @Test
+    /*@Test
     public void getFizzBuzzWord_NumberIsMultipleOfThree_ShouldReturnFizz() {
         assertThat(fizzBuzz.getFizzBuzzWord(3), is("Fizz"));
     }
@@ -26,7 +26,7 @@ public class ITFizzBuzzTest {
     @Test
     public void getFizzBuzzWord_NumberIsMultipleOfFive_ShouldReturnBuzz() {
         assertThat(fizzBuzz.getFizzBuzzWord(5), is("Buzz"));
-    }
+    }*/
 
     @Test
     public void getFizzBuzzWord_NumberIsMultipleOfThreeAndFive_ShouldReturnFizzBuzz() {
