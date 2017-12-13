@@ -7,7 +7,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * @author Zsolt Dunai
+ * @author Zsollt Dunai
  */
 public class ITFizzBuzzTest {
 
