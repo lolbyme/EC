@@ -28,10 +28,6 @@ public class FizzBuzzTest {
     public void getFizzBuzzWord_NumberIsMultipleOfThreeAndFive_ShouldReturnFizzBuzz() {
         assertThat(fizzBuzz.getFizzBuzzWord(15), is("FizzBuzz"));
     }
-    @Test
-    public void getFizzBuzzWord_NumberIstwo_ShouldReturnlul() {
-        assertThat(fizzBuzz.getFizzBuzzWord(2), is("lul"));
-    }
 
     @Test
     public void getFizzBuzzWord_NumberIsNotMultipleOfThreeOrFive_ShouldReturnNull() {
