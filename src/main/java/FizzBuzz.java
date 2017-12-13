@@ -8,9 +8,9 @@ public class FizzBuzz {
             fizzBuzzWord.append("Fizz");
         }
 
-        /*if (number % 5 == 0) {
+        if (number % 5 == 0) {
             fizzBuzzWord.append("Buzz");
-        }*/
+        }
 		
         return (fizzBuzzWord.length() == 0) ? null : fizzBuzzWord.toString();
     }
