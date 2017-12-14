@@ -26,10 +26,10 @@ public class ITFizzBuzzTest {
         assertThat(fizzBuzz.getFizzBuzzWord(5), is("Buzz"));
     }
 
-    /*@Test
+    @Test
     public void getFizzBuzzWord_NumberIsMultipleOfThreeAndFive_ShouldReturnFizzBuzz() {
         assertThat(fizzBuzz.getFizzBuzzWord(15), is("FizzBuzz"));
-    }*/
+    }
     @Test
     public void getFizzBuzzWord_NumberIsNotMultipleOfThreeOrFive_ShouldReturnNull() {
         assertNull(fizzBuzz.getFizzBuzzWord(4));
